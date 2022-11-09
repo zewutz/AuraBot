@@ -69,7 +69,7 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
+
 
 # PyBuilder
 target/
@@ -102,7 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+*.env
 .venv
 env/
 venv/
@@ -127,3 +127,36 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# To do list
+.todo 
+
+# Trash
+resources/backup.py
+resources/permissions.py
+resources/unusedCogs/
+
+#database 
+*.db
+checkdb.py
+
+#old
+.[old]
+
+# Terminal
+cogs/terminal.py
+
+# Visual studio settings
+.vscode/
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Loading complete
